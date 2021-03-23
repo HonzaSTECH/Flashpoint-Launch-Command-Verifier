@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Flashpoint_Launch_Command_Verifier</RootNamespace>
+    <ApplicationIcon>flashpoint.ico</ApplicationIcon>
+    <Copyright>CC0</Copyright>
+    <PackageLicenseExpression>Do whatever you want with this, just don't sell it for money or claim it as yours.</PackageLicenseExpression>
+    <PackageIcon>flashpoint.ico</PackageIcon>
+    <Authors>Shady</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Obrázky\Ikony\flashpoint.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
